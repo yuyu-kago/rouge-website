@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ | Rouge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+    }
+
+    header img {
+      max-width: 200px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #1a1a1a;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #e60039;
+    }
+
+    main {
+      padding: 3rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #e60039;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    label {
+      font-size: 1rem;
+    }
+
+    input,
+    textarea {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #888;
+    }
+
+    button {
+      background-color: #e60039;
+      color: #fff;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff3355;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="/images/logo.jpeg" alt="Rougeロゴ">
+  </header>
+
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="concept.html">コンセプト</a>
+    <a href="cast.html">在籍キャスト</a>
+    <a href="gallery.html">ギャラリー</a>
+    <a href="access.html">アクセス</a>
+    <a href="contact.html">お問い合わせ</a>
+  </nav>
+
+  <main>
+    <h1>お問い合わせ</h1>
+    <form action="#" method="post">
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="name" placeholder="お名前を入力してください" required>
+
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" placeholder="メールアドレスを入力してください" required>
+
+      <label for="message">お問い合わせ内容</label>
+      <textarea id="message" name="message" rows="6" placeholder="ご質問やご要望を入力してください" required></textarea>
+
+      <button type="submit">送信</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Rouge メンズエステ ルージュ. All rights reserved.
+  </footer>
+</body>
+
+</html>
