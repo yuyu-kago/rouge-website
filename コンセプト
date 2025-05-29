@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>コンセプト | Rouge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+    }
+
+    header img {
+      max-width: 200px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #1a1a1a;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #e60039;
+    }
+
+    main {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #e60039;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="/images/logo.jpeg" alt="Rougeロゴ">
+  </header>
+
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="concept.html">コンセプト</a>
+    <a href="cast.html">在籍キャスト</a>
+    <a href="gallery.html">ギャラリー</a>
+    <a href="access.html">アクセス</a>
+    <a href="contact.html">お問い合わせ</a>
+  </nav>
+
+  <main>
+    <h1>コンセプト</h1>
+    <p>
+      メンズエステ「Rouge」は、日常の喧騒を忘れさせる極上の癒しを提供する空間です。<br>
+      洗練された空間と、厳選された美しいセラピストによる極上のトリートメントで、
+      心身ともにリフレッシュしていただけます。<br>
+      当店では「美しい美女が癒してくれるメンズエステ♡」をコンセプトに、お客様一人ひとりに寄り添った最高の癒しをご提供いたします。
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Rouge メンズエステ ルージュ. All rights reserved.
+  </footer>
+</body>
+
+</html>
