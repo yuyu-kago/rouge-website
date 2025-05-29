@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>在籍キャスト紹介 | Rouge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+    }
+
+    header img {
+      max-width: 200px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #1a1a1a;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #e60039;
+    }
+
+    main {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #e60039;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .cast-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+
+    .cast {
+      text-align: center;
+    }
+
+    .cast img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+
+    .cast-name {
+      margin-top: 0.8rem;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="/images/logo.jpeg" alt="Rougeロゴ">
+  </header>
+
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="concept.html">コンセプト</a>
+    <a href="cast.html">在籍キャスト</a>
+    <a href="gallery.html">ギャラリー</a>
+    <a href="access.html">アクセス</a>
+    <a href="contact.html">お問い合わせ</a>
+  </nav>
+
+  <main>
+    <h1>在籍キャスト紹介</h1>
+    <div class="cast-grid">
+      <div class="cast">
+        <img src="/images/お姉さん.webp" alt="お姉さん">
+        <div class="cast-name">お姉さん</div>
+      </div>
+      <div class="cast">
+        <img src="/images/つばさ.webp" alt="つばさ">
+        <div class="cast-name">つばさ</div>
+      </div>
+      <div class="cast">
+        <img src="/images/のあ.webp" alt="のあ">
+        <div class="cast-name">のあ</div>
+      </div>
+      <div class="cast">
+        <img src="/images/ゆきの.webp" alt="ゆきの">
+        <div class="cast-name">ゆきの</div>
+      </div>
+      <div class="cast">
+        <img src="/images/ゆん.webp" alt="ゆん">
+        <div class="cast-name">ゆん</div>
+      </div>
+      <div class="cast">
+        <img src="/images/りお.webp" alt="りお">
+        <div class="cast-name">りお</div>
+      </div>
+      <div class="cast">
+        <img src="/images/るり.webp" alt="るり">
+        <div class="cast-name">るり</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Rouge メンズエステ ルージュ. All rights reserved.
+  </footer>
+</body>
+
+</html>
